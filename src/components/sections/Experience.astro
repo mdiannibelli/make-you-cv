@@ -1,0 +1,75 @@
+---
+import Section from './Section.astro';
+import {work} from '../../cv.json'
+---
+
+<Section title="Work Experience">
+    <ul>
+        {work.map(({name, startDate, endDate, position, summary, highlights}) => {
+           /* get year of start date */
+           const startYear = new Date(startDate).getFullYear()
+           /* get endDate si es distinto de null y si es null "present"  */
+           const endYear = endDate != null ? new Date(endDate).getFullYear() : "Present"
+           const years = `${startYear} - ${endYear}`
+            return (
+                <li>
+                    <article>
+                        <header>
+                            <div>
+                                <h3>{name}</h3>
+                                <h4>{position}</h3>
+                            </div>
+
+                            <time><em>{years}</em></time>
+                        </header>
+
+                        <footer>
+                            <p>{summary}</p>
+                        </footer>
+                    </article>
+                </li>
+            )
+        })}
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    article h3 {
+        letter-spacing: 0.225rem;
+        font-weight: 500;
+        color: #111;
+    }
+
+    article h4 {
+        font-family: "Barlow", sans-serif;
+        font-weight: 300;
+        font-size: 0.850rem;
+        text-transform: uppercase;
+        font-style: normal;
+        color:  #222;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+    time {
+        color: #555;
+        font-size: 0.85rem;
+        font-family: "Barlow", sans-serif;
+        text-transform: uppercase;
+    }
+</style>

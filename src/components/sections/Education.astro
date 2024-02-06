@@ -1,0 +1,72 @@
+---
+import Section from './Section.astro';
+import {education} from '../../cv.json'
+
+---
+
+<Section title="Education">
+    <ul>
+        {education.map(({institution, url, area, studyType, startDate, endDate, score }) => {
+            const startYear = new Date(startDate).getFullYear();
+            const endYear = endDate != null ? new Date(endDate).getUTCFullYear() : "Present";
+            const years = `${startYear} - ${endYear}`;
+            return (
+                <li>
+                    <article>
+                        <header>
+                            <div>
+                                <h3>{institution}</h3>    
+                                <h4>{studyType}</h4>  
+                            </div>    
+                            
+                            <time>{years}</time>
+                        </header>
+
+                    </article>
+
+                    <footer>
+                        <p>{area}</p>
+                    </footer>
+                </li>
+            )
+        })}
+    </ul>
+</Section>
+
+<style>
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 4px;
+    }
+      article h3 {
+        letter-spacing: 0.225rem;
+        font-weight: 500;
+        color: #111;
+    }
+
+    article h4 {
+        font-family: "Barlow", sans-serif;
+        font-weight: 300;
+        font-size: 0.850rem;
+        text-transform: uppercase;
+        font-style: normal;
+        color:  #222;
+    }
+    footer p {
+        font-size: 1rem;
+    }
+
+    time {
+        color: #555;
+        font-size: 0.85rem;
+        font-family: "Barlow", sans-serif;
+        text-transform: uppercase;
+    }
+</style>

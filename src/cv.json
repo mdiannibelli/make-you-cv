@@ -1,0 +1,341 @@
+{
+    "basics": {
+      "name": "Marcos Dionel Iannibelli",
+      "label": "Web Developer & Designer",
+      "image": "https://i.postimg.cc/x1CQKwg8/Logo-Portfolio-color-v2.png",
+      "email": "mdiannibelli@gmail.com",
+      "phone": "(11) 6631-5085",
+      "url": "https://github.com/mdiannibelli",
+      "summary": "💻 I'm Marcos, full stack web developer & designer. A programming lover looking for new projects, ideas and knowledge. Systems analyst in progress...",
+      "location": {
+        "address": "Avenida Nazca 2100",
+        "postalCode": "1416",
+        "city": "CABA",
+        "countryCode": "AR",
+        "region": "Buenos Aires"
+      },
+      "profiles": [{
+        "network": "GitHub",
+        "username": "mdiannibelli",
+        "url": "https://github.com/mdiannibelli"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Marcos Iannibelli",
+        "url": "https://www.linkedin.com/in/marcos-iannibelli-1b3827254/"
+      }]
+    },
+    "work": [{
+      "name": "Freelance Web Developer",
+      "position": "Frontend",
+      "url": "https://company.com",
+      "startDate": "2022-02-03",
+      "endDate": null,
+      "summary": "Making of websites.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Active Contact Center",
+      "position": "Seller",
+      "url": "",
+      "startDate": "2022-02-03",
+      "endDate": "2022-03-04",
+      "summary": "Seller in call center."
+    },
+    {
+      "name": "Club Ciencia & Labor",
+      "position": "Receptionist and bodybuilding professor",
+      "url": "",
+      "startDate": "2023-02-03",
+      "endDate": "2024-03-04",
+      "summary": "Bodybuilding instructor and coach."
+    }],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-02-01",
+      "endDate": "2013-02-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "Instituto Carlos Steeb",
+      "url": "https://institution.com/",
+      "area": "Visual Arts",
+      "studyType": "Highschool",
+      "startDate": "2017-02-01",
+      "endDate": "2021-02-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "Coderhouse",
+      "url": "https://institution.com/",
+      "area": "Full Stack Developer",
+      "studyType": "Course",
+      "startDate": "2022-02-01",
+      "endDate": "2023-02-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "Designer",
+      "url": "https://institution.com/",
+      "area": "Graphic Design",
+      "studyType": "Autodidact",
+      "startDate": "2019-02-01",
+      "endDate": null,
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    },
+    {
+      "institution": "ENADE",
+      "url": "https://institution.com/",
+      "area": "Bodybuilding Professor",
+      "studyType": "Course",
+      "startDate": "2023-02-01",
+      "endDate": "2023-03-01",
+      "score": "4.0",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "Node",
+        "level": "Intermediate",
+        "keywords": [
+          "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        ]
+      },
+      {
+        "name": "MySQL",
+        "level": "Avanzado",
+        "keywords": [
+          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "Next.js",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Astro",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        ]
+      },
+      {
+        "name": "Adobe Photoshop",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        ]
+      },
+      {
+        "name": "Adobe Illustrator",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        ]
+      },
+      {
+        "name": "Sony Vegas Pro",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        ]
+      }
+    ],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [{
+      "name": "Personal Logo",
+      "isActive": "Yes",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Logo made with illustrator and photoshop.",
+      "highlights": [
+        "Adobe illustrator & Adobe Photoshop"
+      ],
+      "url": "https://www.behance.net/gallery/188619199/Personal-Logo"
+    },
+    {
+      "name": "Moon Guitars",
+      "isActive": "Yes",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Website for guitars, basses and accessories, with a section of artists and their photos.",
+      "highlights": [
+        "HTML & CSS"
+      ],
+      "url": "https://www.behance.net/gallery/188552953/Moon-Guitars"
+    },
+    {
+      "name": "Dionel Shop",
+      "isActive": "Yes",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "E-commerce of deportive equipment.",
+      "highlights": [
+        "ReactJs & Firebase"
+      ],
+      "url": "https://www.behance.net/gallery/188557217/Dionel-Shop-E-Commerce"
+    },
+    {
+      "name": "The Training Wiki",
+      "isActive": "Yes",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Website specially made for people who train and need to learn about exercises or tips for muscle gain and performance.",
+      "highlights": [
+        "ReactJs"
+      ],
+      "url": "https://www.behance.net/gallery/188537519/The-Training-Wiki"
+    },
+    {
+      "name": "A Radioactive Problem",
+      "isActive": "",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Chernobyl Speed Art.",
+      "highlights": [
+        "Speed Art - Adobe Photoshop"
+      ],
+      "url": "https://www.behance.net/gallery/188554607/A-Radioactive-Problem"
+    },
+    {
+      "name": "Kraken Speed Art",
+      "isActive": "",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Kraken Speed Art.",
+      "highlights": [
+        "Speed Art - Adobe Photoshop"
+      ],
+      "url": "https://www.behance.net/gallery/188539715/Kraken-Speed-Art"
+    },
+    {
+      "name": "Personal trainer flyer",
+      "isActive": "",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Flyer made for bodybuilding training consultancies.",
+      "highlights": [
+        "Adobe Photoshop"
+      ],
+      "url": "https://www.behance.net/gallery/188621513/Personal-Trainer-Flyer"
+    },
+    {
+      "name": "World War 2 Speed Art",
+      "isActive": "",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "WW2 Speed Art.",
+      "highlights": [
+        "Speed Art - Adobe Photoshop"
+      ],
+      "url": "https://www.behance.net/gallery/188824105/World-War-2-Speed-Art"
+    },
+    {
+      "name": "Ironwrap",
+      "isActive": "Yes",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Logo and banner design for sports equipment entrepreneurship.",
+      "highlights": [
+        "Adobe illustrator & Adobe Photoshop"
+      ],
+      "url": "https://www.behance.net/gallery/189840909/Iron-Wrap-Empretienda-Design"
+    }]
+
+  }
